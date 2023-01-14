@@ -1,0 +1,15 @@
+ HTTP merupakan protokol untuk melakukan transmisi hypermedia, seperti HTML,JS,CSS,Image,Audio,Video,dll
+ Dalam HTTP ada yang namanya HTTP Request untuk meminta atau mengirim informasi ke server
+ dan ketika WEB server menerima request dari clientnya maka WEB Server akan membalas dengan HTTP Response dari HTTP Request yang diterima
+ HTTP didesain menggunakan bahasa yang mudah dimengerti, seperti :
+ GET 
+ POST 
+ PUT
+ DELETE
+ HEAD
+ OPTION
+ HTTP merupakan protokol yang stateless
+ Stateless itu artinya tiap HTTP Request merupakan Request yang independen, tidak ada keterkaitan atau hubungan dengan HTTP Request sebelumnya atau setelahnya
+ Hal ini dilakukan agar HTTP Request tidak harus dilakukan secara sequence, jadi sequence itu berurut
+untuk login bernama session
+ Untuk menangani permasalahan seperti ini, HTTP memiliki fitur yang bernama HTTP Cookie.
