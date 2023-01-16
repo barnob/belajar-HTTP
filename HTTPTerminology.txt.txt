@@ -1,0 +1,21 @@
+Saat kita belajar HTTP, ada banyak sekali menggunakan terminologi, istilah atau teknologi
+Dan kita perlu mengerti tentang hal tersebut.
+WEB Browser merupakan apk yang digunakan untuk mengakses WEB menggunakan protokol HTTP, contohnya :
+1. Google Chrome
+2. Firefox
+3. Opera
+4. Safari, dll
+TCP singkatan dari Transmission Control Protocol, ini adalah salah satu protokol dalam jaringan komputer yang biasa digunakan oleh WEB, Email, FTP atau lainnya.
+Jika kita menggunakan jaringan internet, kemungkinan besar kita akan menggunakan Protokol TCP untuk melakukan koneksi jaringannya 
+IP singkatan dari Internet Protocol
+IP digunakan sebagai identitas komputer di jaringan
+setiap komputer baik itu client dan server akan memiliki IP
+cek IP kita bisa mengakses WEB
+https://whatismyipaddress.com/
+URL singkatan dari Uniform Resource Locator, dan URL merupakan alamat dari sebuah resource di WEB
+DNS singkatan dari Domain Name Server, DNS merupakan tempat yang berisi data katalog pemetaan antara nama domain di URL menuju lokasi IP komputer
+prosesnya akan bertanya ke DNS untuk mendapatkan IP, lalu WEB Browser akan melakukan request ke IP
+untuk cek IP sebuah domain :
+https://www.whatismyip.com/dns-lookup/
+WEB Server merupakan apk yang berjalan di jaringan Internet yang bertugas sebagai server biasa di akses oleh client
+WEB Server akan menerima request dari client, dan membalas sebuah request
