@@ -1,0 +1,6 @@
+Untuk lebih mempermudah melihat apa yang dilakukan dibelakang WEB Browser, biasanya WEB Browser memiliki fitur Network Tool
+Contohnya di browser seperti Google Chrome dan Firefox sudah memiliki Network Tool
+kita bisa melihat semua detail HTTP Request dan HTTP Response yang dilakukan oleh Client dan Server
+
+buka website https://www.programmerzamannow.com
+Lalu lihat informasi HTTP Request dan HTTP Response yang terjadi menggunakan Network Tool yang terdapat di WEB Browser yang kita gunakan
