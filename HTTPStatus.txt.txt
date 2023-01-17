@@ -1,0 +1,31 @@
+HTTP Status merupakan kode HTTP Response yang mengindikasikan apakah sebuah request yang diterima Server sukses,gagal atau ada hal lain yang harus diketahui oleh Client
+HTTP Status diklarifikasikan dalam 5 grup, yaitu :
+1. Informational Response (100-199)
+2. Successful Response (200-299)
+3. Redirect (300-399)
+4. Client Error (400-499)
+5. Server Error (500-599)
+https://en.wikipedia.org/wiki/list_of_HTTP_status_codes
+
+Informational Response (100-199)
+mengindikasi bahwa request telah diterima dan dimengerti, namun Client diminta untuk menunggu tahapan akhir response
+Pada kenyataannya, informational response sangat jarang sekali digunakan
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#information_responses
+
+Successful Response (200-299)
+kode yang mengindikasi bahwa request yang dikirim oleh client telah diterima, dimengerti dan sukses diproses oleh Server
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses
+
+Redirect (300-399)
+mengindikasi bahwa client harus melakukan aksi selanjutnya untuk menyelesaikan request
+Biasanya redirect status code digunakan ketika lokasi sebuah resource berubah, sehingga Server meminta Client untuk berpindah ke URL lain
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages
+
+Client Error (400-499)
+merupakan indikasi bahwa request yang dikirim oleh Client tidak diterima oleh Server dikarenakan request yang dikirim dianggap tidak valid
+Contohnya client mengirimkan body yang salah. Client melakukan request ke tanpa autentikasi di resource yang mewajibkan autentikasi, dll
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
+
+Server Error(500-599)
+mengindikasi bahwa terjadi kesalahan di Server, Biasanya ini terjadi ketika ada masalah di Server, seperti misalnya tidak bisa terkoneksi ke basis data, terdapat jaringan error di server, dll
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#server_error_responses
