@@ -1,0 +1,12 @@
+Dalam HTTP Request, hal yang pertama kita perlu tentukan dalam HTTP Method
+HTTP Method mirip seperti kategori request
+Ada banyak yang dapat kita gunakan ketika membuat HTTP Request, dan bisa sesuai dengan kebutuhan yang kita inginkan 
+
+GET : GET Method digunakan untuk melakukan request data
+HEAD : HEAD Method digunakan sama seperti dengan GET, Tapi tanpa membutuhkan response body
+POST : POST Method digunakan untuk mengirim data ke Server, biasanya POST digunakan untuk mengirim data baru sehingga memiliki Request body
+PUT : PUT Method digunakan untuk mengganti semua data yang terdapat di Server dengan data baru yang dikirim di request
+DELETE : DELETE Method digunakan untuk menghapus data
+PATCH : PATCH Method digunakan untuk mengubah sebagian data
+OPTIONS : OPTIONS Method digunakan untuk mendeskripsikan opsi komunikasi yang tersedia
+TRACE : TRACE Method merupakan request method untuk debugging. Response TRACE Method akan mengembalikan seluruh informasi yang dikirim oleh client
