@@ -1,0 +1,9 @@
+Seperti yang sudah dijelaskan pada materi HTTP Status, untuk memaksa client melakukan redirect ke halaman lain, kita bisa menggunakan http redirect status code (300-399)
+Biasanya response HTTP Status redirect, selalu dibarengi dengan informasi URL redirectnya, dan itu disimpan pada header Location
+
+contoh HTTP Response Redirect :
+HTTP/1.1 301
+Location: /dashboard
+
+HTTP/1.1 301
+Location: https://www.example.com/
