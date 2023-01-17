@@ -1,0 +1,9 @@
+HTTP Body merupakan data yang bisa dikirim di HTTP Request, atau data yang diterima dari HTTP Response
+Artinya Client bisa mengirim data ke server menggunakan HTTP Body, begitu juga sebaliknya
+Server bisa memberikan Body di response menggunakan HTTP Body
+
+HTTP Body erat kaitannya dengan Header Key Content-Type
+Biasanya agar Client dan Server mudah dimengerti isi HTTP Body, HTTP Message akan memiliki Header Content-Type, yang berisi informasi tipe data HTTP Body
+HTTP Body bisa berisikan teks (html,javascript,css,json) atau binary (image,video,audio)
+Data content-Type sudah memiliki standarisasi, misalnya bisa kita lihat di link berikut :
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basic_of_HTTP/MIME_types/Common_types
