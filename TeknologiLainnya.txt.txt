@@ -1,0 +1,5 @@
+Teknologi Lainnya :
+1. Server-Sent Event
+2. WebSocket
+3. Cross-Origin Resource Sharing
+4. OAuth
