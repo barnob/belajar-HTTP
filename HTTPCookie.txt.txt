@@ -1,0 +1,22 @@
+HTTP Cookie merupakan informasi yang diberikan oleh server, dan client secara otomatis akan menyimpan data tersebut, contohnya di Web Browser
+Ketika Web Browser melakukan request selanjutnya, maka WEB Browser akan menyisipkan cookie yang sudah diterima di request sebelumnya
+Dari cookie tersebut, Server bisa mengetahui apakah request tersebut merupakan request client yang sudah login atau belum
+
+Contoh Cookie di HTTP Response :
+HTTP/1.1 200
+Set-Cookie: user=eko
+Set-Cookie: session=3412414124124124
+
+Setelah cookie dari HTTP Response diterima oleh WEB Browser, maka akan disimpan di WEB Browser
+Selanjutnya HTTP Request akan mengirimkan cookie di tiap request, dimana cookie yang dikirim bisa menggunakan Header dengan nama Cookie
+Berbeda dengan HTTP Response, untuk HTTP Request, Cookie harus digabung di satu header jika lebih dari satu Cookie
+
+Contoh Cookie di HTTP Request :
+GET /dashboard HTTP/1.1
+Host: example.com
+Accept: text/html
+Cookie: user=eko; session=3412414124124124
+
+Cookie memiliki atribut yang bisa ditambahkan ketika membuat cookie di HTTP response
+seperti masa berlaku cookie, apakah harus https, apakah tidak boleh diakses via script, dll.
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie
